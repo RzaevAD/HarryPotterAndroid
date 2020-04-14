@@ -1,4 +1,4 @@
-package com.loftblog.hogwardtslibrary.ui.home
+package com.loftblog.hogwardtslibrary.ui.students
 
 import android.os.Bundle
 import android.view.LayoutInflater

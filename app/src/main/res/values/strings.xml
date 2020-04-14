@@ -5,7 +5,7 @@
     <string name="hello_home_second">Hello HomeSecondFragment. Arg: %1$s</string>
     <string name="hello_dashboard_second">Hello DashboardSecondFragment. Arg: %1$s</string>
     <string name="hello_notifications_second">Hello NotificationsSecondFragment. Arg: %1$s</string>
-    <string name="title_home">Home</string>
+    <string name="title_students">Ученики</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
@@ -17,4 +17,6 @@
     <string name="welcome_selected">Поздравляем! Ваш факультет [faculty_name]</string>
     <string name="welcome_selecting">Распределяю...</string>
     <string name="welcome_next">Зайти в школу</string>
+    <string name="students_search_hint">введите имя для поиска</string>
+    <string name="loading">Загружаю данные...</string>
 </resources>

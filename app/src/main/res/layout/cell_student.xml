@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/textStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harry Potter"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/primary_text_color" />
+
+    <TextView
+        android:id="@+id/textStudentFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Griffendor"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:alpha="0.6"
+        android:textColor="@color/primary_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/divider_color" />
+    
+</LinearLayout>

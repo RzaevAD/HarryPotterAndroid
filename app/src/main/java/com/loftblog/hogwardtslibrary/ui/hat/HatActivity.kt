@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
 import com.loftblog.hogwardtslibrary.R
+import com.loftblog.hogwardtslibrary.domain.helpers.Keys
 import com.loftblog.hogwardtslibrary.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_hat.*
 
@@ -57,6 +58,12 @@ class HatActivity : AppCompatActivity() {
     private fun setupFaculty(viewModel: HatViewModel) {
         viewModel.facultyName.observe(this, Observer { facultyName->
             if (facultyName.isNotEmpty()) {
+                val sharedPreferences = getSharedPreferences(getString(R.string.app_name),0)
+                sharedPreferences.edit()
+                    .putString(Keys.Username.value, textWelcomeUserName.text.toString())
+                    .putString(Keys.Faculty.value, facultyName)
+                    .apply()
+
                 textWelcomeSelected.text = getString(R.string.welcome_selected)
                     .replace("[faculty_name]", facultyName)
                 textWelcomeSelected.visibility = View.VISIBLE
