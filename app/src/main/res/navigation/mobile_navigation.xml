@@ -41,9 +41,9 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.loftblog.hogwardtslibrary.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="com.loftblog.hogwardtslibrary.ui.spells.SpellsFragment"
+        android:label="@string/title_spells"
+        tools:layout="@layout/fragment_spells" />
     <fragment
         android:id="@+id/houseDetailFragment"
         android:name="com.loftblog.hogwardtslibrary.ui.house.HouseDetailFragment"

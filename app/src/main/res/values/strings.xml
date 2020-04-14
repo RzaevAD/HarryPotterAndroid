@@ -7,7 +7,7 @@
     <string name="hello_notifications_second">Hello NotificationsSecondFragment. Arg: %1$s</string>
     <string name="title_students">Students</string>
     <string name="title_houses">Houses</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_spells">Spells</string>
 
     <string name="home_second">Home Second</string>
     <string name="welcome_title">"Добро пожаловать в школу магии и волшебства - Хогвартс "</string>
@@ -22,4 +22,8 @@
     <string name="house_detail_leader">The leadersip of [LEADER_NAME]</string>
     <string name="house_detail_owner">Founded by: [FOUDER_NAME]</string>
     <string name="house_detail_ghost">Main ghost: [GHOST_NAME]</string>
+    <string name="spell_charm">Charm</string>
+    <string name="spell_spell">Spell</string>
+    <string name="spell_jinx">Jinx</string>
+    <string name="spell_curse">Curse</string>
 </resources>
