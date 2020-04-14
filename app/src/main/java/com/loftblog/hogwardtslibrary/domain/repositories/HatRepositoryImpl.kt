@@ -8,7 +8,7 @@ class HatRepositoryImpl: HatRepository {
         delay(3000)
 
         return if (username == "Harry Potter") {
-            FacultyModel(name = "Griffindor")
+            FacultyModel(name = "Gryffindor")
         } else {
             FacultyModel(name = "Slytherin")
         }

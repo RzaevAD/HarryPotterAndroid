@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.house.HouseDetailFragment">
+
+    <ImageView
+        android:id="@+id/imgHouseDetail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/img_slytherin"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textHouseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_header_size"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Slytherin"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/main_header_color" />
+
+    <TextView
+        android:id="@+id/textHouseLeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/main_subheader_color"
+        android:text="@string/house_detail_leader"
+        android:textSize="@dimen/main_subheader_size" />
+
+    <TextView
+        android:id="@+id/textHouseOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/main_subheader_color"
+        android:text="@string/house_detail_owner"
+        android:textSize="@dimen/main_subheader_size" />
+
+    <TextView
+        android:id="@+id/textHouseGhost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/main_subheader_color"
+        android:text="@string/house_detail_ghost"
+        android:textSize="@dimen/main_subheader_size" />
+
+</LinearLayout>
